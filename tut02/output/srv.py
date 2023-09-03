@@ -45,7 +45,7 @@ def capture_2_udp():
     
 
 target_website = "www.nic.in"
-target_port = 443
+target_port = 80
 
 target_ip = socket.gethostbyname(target_website)
 
